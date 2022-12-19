@@ -385,7 +385,7 @@ resource "aws_instance" "backend" {
   instance_type             = var.instance_type
   key_name                  = aws_key_pair.mykey.id
   vpc_security_group_ids    = [ aws_security_group.backend.id ]
-  subnet_id                 = aws_subnet.private2.id
+  subnet_id                 = aws_subnet.private3.id
 
   tags = {
     Name    = "${var.project}-backend"
