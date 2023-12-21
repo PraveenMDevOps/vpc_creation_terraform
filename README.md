@@ -4,7 +4,7 @@
 - Easy to deply.
 - Subnets are created through automation.
 
-## Prerequisites for this projec
+## Prerequisites for this project
 - IAM user with programmatic access.
 - erraform should be installed locally.
 - Good knowledge in the concept of vpc, ec2 and networking.
